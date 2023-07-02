@@ -1,0 +1,15 @@
+//4th question
+
+// Write a function to find the sum of all elements in an array.
+// ex:- arr = [1,2,3,4,5];
+
+// output = 15;
+
+Code : 
+
+var arr=[1,2,3,4,5];
+undefined
+var res=arr.reduce((acc,e)=>acc+e,0);
+undefined
+res;
+15

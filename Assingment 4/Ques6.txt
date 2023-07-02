@@ -1,0 +1,9 @@
+//Ques6
+undefined
+
+
+var arr =  [1,2,3,4,5];
+undefined
+arr.filter(e=>e!=3);
+
+(4) [1, 2, 4, 5]

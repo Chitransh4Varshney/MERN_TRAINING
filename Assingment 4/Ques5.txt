@@ -1,0 +1,13 @@
+function reverse(s){
+    var arr = s.split('');
+    var len = arr.length;
+    var ans = [];
+    var r = len-1;
+    for(r ; r>=0;r--){
+        ans.push(arr[r]);
+    }
+    console.log(ans);
+}
+undefined
+var s =prompt("enter the string");
+reverse(s);
