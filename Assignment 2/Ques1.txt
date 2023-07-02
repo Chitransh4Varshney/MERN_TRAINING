@@ -1,0 +1,18 @@
+function sum(){
+    var num = 1234;
+    var numString = num.toString();
+    var even =0;
+    var odd = 0;
+    for(var i =0;i<numString.length;i++)
+        {
+            if(i %2 ==0){
+                even += parseInt(numString[i]);
+            }
+            else
+            {
+                odd += parseInt(numString[i]);
+            }
+        }
+    console.log("Even digit sum is : " + even);
+    console.log("odd digit sum is : " + odd);
+}
