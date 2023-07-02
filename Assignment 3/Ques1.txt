@@ -1,0 +1,35 @@
+1.Write a function calculate that takes three arugments from the user, say num1 , num2, and operation(1==add, 2==subtract, 
+3==multiply, 4==divide ).Don`t use switch statement or if else statements
+ 
+1.add,
+2.subtract,
+3.multiply,
+4.divide 
+
+write the calc function for all the operations
+
+Code:
+
+function Calc(){
+    
+
+    var add = function(num1,num2){
+        return num1 + num2;
+    }
+
+    var sub = function(num1,num2){
+        return num1-num2;
+    }
+    var mul = function(num1,num2){
+        return num1*num2;
+    }
+    var div = function(num1,num2){
+        return num1/num2;
+    }
+    return [add,sub,mul,div];
+}
+    var num1 = parseInt(prompt("Enter the value of num1 "));
+    var num2 = parseInt(prompt("Enter the value of num2"));
+    var Oper = parseInt(prompt("Enter the operation : "));
+
+Calc()[Oper](num1,num2);
